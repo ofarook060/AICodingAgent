@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Coding Agent",
+    "slug": "coding-agent",
+
+    "scheme": "codingagent",
+
+    "android": {
+      "package": "com.local.codingagent"
+    },
+
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
