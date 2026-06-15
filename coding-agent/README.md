@@ -1,3 +1,26 @@
+1. Force npm past the peer errors to install your packages:
+
+bash
+
+npm install --legacy-peer-deps
+
+
+2. Let Expo automatically adjust the versions to match SDK 53:
+
+bash
+
+npx expo install --fix
+
+
+3. Clear your build cache to make sure the changes register:
+
+bash
+
+npx expo start -c
+
+
+
+
 coding-agent/
 │
 ├── package.json
