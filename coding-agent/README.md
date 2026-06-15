@@ -120,9 +120,9 @@ backend/tools/executeCommand.js
 
 
 Run Backend
-cd backend
-npm install
-node server.js
+   cd backend
+   npm install
+   node server.js
 
 Output:
 
